@@ -5,7 +5,7 @@ using Shop.Models;
 
 namespace Backoffice.Controllers
 {
-    [Route("v1")]
+    [Route("")]
     public class HomeController : Controller
     {
         [HttpGet]
