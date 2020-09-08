@@ -10,7 +10,7 @@ using Shop.Models;
 namespace Shop.Controllers
 {
     //https://localhost:5001/categories
-    [Route("v1/categories")]
+    [Route("categories")]
     public class CategoryController : ControllerBase
     {
         [HttpGet]
